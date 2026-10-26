@@ -1,0 +1,16 @@
+# Inference-only dependency pins for RVC upstream commit
+# 81eed5e8f68b6bed1789f682fe78cdd324495afc.
+# Install torch==2.7.1+cu128 and torchaudio==2.7.1+cu128 separately first.
+# These are selected from the upstream requirments_cu128_py312.txt bounds.
+av==15.1.0
+einops==0.8.1
+faiss-cpu==1.13.0
+ffmpeg-python==0.2.0
+librosa==0.10.2.post1
+local-attention==1.11.0
+numpy==1.26.4
+praat-parselmouth==0.4.5
+PyYAML==6.0.2
+scipy==1.13.1
+soundfile==0.13.1
+transformers==4.49.0

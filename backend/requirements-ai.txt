@@ -1,0 +1,6 @@
+# AI packages. Install PyTorch FIRST (CUDA build from https://pytorch.org/get-started/locally/),
+# then run: pip install -r requirements-ai.txt
+# Afterwards check that PyTorch still sees your GPU:  python ../scripts/check_env.py
+demucs==4.1.0
+piper-tts==1.8.0
+# Optional Kokoro inference dependencies are isolated in requirements-kokoro.txt.

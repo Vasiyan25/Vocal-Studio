@@ -1,0 +1,25 @@
+# Seed-VC inference dependencies for an isolated environment.
+# Install PyTorch + torchaudio separately first (see docs/adapters/seed-vc.md).
+# Do NOT install this into the main Vocal Studio venv — it conflicts with Demucs/Piper pins.
+#
+# Source: Plachtaa/seed-vc requirements.txt (inference subset; Gradio/GUI omitted).
+# Suggested: Python 3.12, torch 2.4+ with CUDA matching your driver.
+
+accelerate
+scipy==1.13.1
+librosa==0.10.2
+huggingface-hub>=0.28.1
+munch==4.0.0
+einops==0.8.0
+descript-audio-codec==1.0.0
+pydub==0.25.1
+jiwer==3.0.3
+transformers==4.46.3
+soundfile==0.12.1
+numpy==1.26.4
+hydra-core==1.3.2
+pyyaml
+python-dotenv
+# CAMPPlus speaker encoder path used by Seed-VC inference:
+modelscope==1.18.1
+funasr==1.1.5

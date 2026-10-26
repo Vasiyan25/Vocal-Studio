@@ -1,0 +1,5 @@
+# Install into the existing backend venv after verifying its CUDA-enabled torch remains intact.
+# Kokoro's upstream package supports Python 3.10-3.12. This does not pin or reinstall torch.
+kokoro==0.9.4
+transformers>=4.46.3,<5
+soundfile>=0.12,<1
