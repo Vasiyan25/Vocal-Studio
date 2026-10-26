@@ -1,6 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./backend"
-    ],
-    "cmake.sourceDirectory": "C:/Users/Prem/Downloads/vocal-studio-milestone2-3/backend/rvc-project/RVCRealtimeVST"
-}

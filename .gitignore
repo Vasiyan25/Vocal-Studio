@@ -31,3 +31,4 @@ models/seed-vc/**
 *.flac
 *.safetensors
 *.th
+.vscode/settings.json
